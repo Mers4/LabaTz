@@ -1,0 +1,11 @@
+<project name="MyProject">
+    <functional_block name="Block1">
+        <input name="Input1" value="10"/>
+        <output name="Output1"/>
+    </functional_block>
+    <functional_block name="Block2">
+        <input name="Input2"/>
+        <output name="Output2"/>
+    </functional_block>
+    <connection source_block="Block1" source_output="Output1" target_block="Block2" target_input="Input2"/>
+</project>

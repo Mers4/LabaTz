@@ -1,0 +1,27 @@
+{
+    "resource_name": "MyResource",
+    "functional_blocks": [
+        {
+            "name": "Block1",
+            "inputs": {
+                "Input1": 10
+            },
+            "outputs": ["Output1"]
+        },
+        {
+            "name": "Block2",
+            "inputs": {
+                "Input2": null
+            },
+            "outputs": ["Output2"]
+        }
+    ],
+    "connections": [
+        {
+            "source_block": "Block1",
+            "source_output": "Output1",
+            "target_block": "Block2",
+            "target_input": "Input2"
+        }
+    ]
+}
